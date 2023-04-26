@@ -17,7 +17,7 @@ export default function Listing(props) {
                     <div className="item" key={listing_id}>
                         <div className="item-image">
                             <a href={url}>
-                                <img src={MainImage.url_570xN}></img>
+                                <img src={MainImage.url_570xN} alt="item screen"></img>
                             </a>
                         </div>
                         <div className="item-details">
